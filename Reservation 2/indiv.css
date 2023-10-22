@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+.container {
+    display: flex;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+   
+    
+}
+
+.form {
+    flex: 1;
+    padding: 5% 3%;
+    max-width: 500px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.timepicker {
+    flex: 1;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+    align-items: left;
+}
+
+.datepicker {
+    flex: 1;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.legend {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Define styles for the legend */
+.legend ul {
+    list-style: none;
+    padding: 0;
+}
+
+.legend li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.legend .available {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-right: 5px;
+}
+
+.legend .selected {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 5px;
+}
+
+.reserve {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex .me-2 {
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: left;
+}
+
+form {
+    text-align: left; /* Align form elements to the left */
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 10px; /* Add some space between form elements and the button */
+}
